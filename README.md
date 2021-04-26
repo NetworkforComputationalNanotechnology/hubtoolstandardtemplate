@@ -5,7 +5,7 @@ Keep all of the folders and hidden files.
 .keep files are present to force git to track initially empty directories.
 Should the directories become populated the .keep file can be removed.
 
-There must be a top level directory named ''middleware'' and it must contain a shell script named {{{invoke}}}.  Code that must be compiled should reside in the top level directory named {{{src}}}.  The {{{src}}} should include a {{{Makefile}}} for building the tool.  Products of the build such as binary executables should be placed the top level directory named {{{bin}}}.  Additional top level directories such as {{{data}}} and {{{examples}}} are also typical but optional.
+There must be a top level directory named middleware and it must contain a shell script named {{{invoke}}}.  Code that must be compiled should reside in the top level directory named {{{src}}}.  The {{{src}}} should include a {{{Makefile}}} for building the tool.  Products of the build such as binary executables should be placed the top level directory named {{{bin}}}.  Additional top level directories such as {{{data}}} and {{{examples}}} are also typical but optional.
 
 ==> What else?
 
