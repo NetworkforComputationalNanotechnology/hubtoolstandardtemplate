@@ -5,7 +5,7 @@ Keep all of the folders and hidden files.
 .keep files are present to force git to track initially empty directories.
 Should the directories become populated the .keep file can be removed.
 
-There must be a top level directory named {{{middleware}}} and it must contain a shell script named {{{invoke}}}.  Code that must be compiled should reside in the top level directory named {{{src}}}.  The {{{src}}} should include a {{{Makefile}}} for building the tool.  Products of the build such as binary executables should be placed the top level directory named {{{bin}}}.  Additional top level directories such as {{{data}}} and {{{examples}}} are also typical but optional.
+There must be a top level directory named ''middleware'' and it must contain a shell script named {{{invoke}}}.  Code that must be compiled should reside in the top level directory named {{{src}}}.  The {{{src}}} should include a {{{Makefile}}} for building the tool.  Products of the build such as binary executables should be placed the top level directory named {{{bin}}}.  Additional top level directories such as {{{data}}} and {{{examples}}} are also typical but optional.
 
 ==> What else?
 
@@ -22,7 +22,7 @@ There must be a top level directory named {{{middleware}}} and it must contain a
 * Click the clipboard icon to copy the URL to the clipboard.
 
 3b) If your repository is private, there are more steps:
-* You will have to have an ssh key in nanoHUB and add the public key to your GitHub account.
+* You will have to have an ssh key in nanoHUB and add the public key to your GitHub account. Instructions are here: https://nanohub.org/kb/tools/sshkeypair
 * Use the private ssh:// link to set up the connection with nanoHUB.
 ==> I Forgot whether we have to wait for something here   * You need to invite nanohub-apps as a collaborator to your repo, in order to get the key to connect to nanoHUB.
 
